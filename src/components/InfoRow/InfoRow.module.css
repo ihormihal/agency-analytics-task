@@ -1,0 +1,18 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-grey-line);
+    margin: 0;
+    padding: 1rem 0;
+}
+.first {
+    border-top: 1px solid var(--color-grey-line);
+}
+.label {
+    color: var(--color-gray-text);
+    font-weight: 500;
+}
+.value {
+    font-weight: 500;
+}

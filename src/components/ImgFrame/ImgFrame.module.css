@@ -1,0 +1,28 @@
+.frame {
+    border: 2px solid transparent;
+    padding: 2px;
+    border-radius: calc(1rem + 2px);
+}
+
+.crop {
+    border-radius: 1rem;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 75%;
+    position: relative;
+    background: #f0f0f0;
+}
+
+.selected {
+    border-color: var(--color-accent);
+}
+
+.frame img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    max-height: 100%;
+}

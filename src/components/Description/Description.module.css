@@ -1,0 +1,7 @@
+.wrapper {
+    margin-top: 2.5rem;
+}
+
+.text {
+    color: var(--color-gray-text);
+}

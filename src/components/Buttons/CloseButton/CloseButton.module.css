@@ -1,0 +1,32 @@
+.button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+}
+
+.button:before {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    content: '';
+    display: block;
+    height: 2rem;
+    width: 2px;
+    background: var(--color-gray-text);
+    transform: rotate(-45deg);
+}
+
+.button:after {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    content: '';
+    display: block;
+    height: 2rem;
+    width: 2px;
+    background: var(--color-gray-text);
+    transform: rotate(45deg);
+}

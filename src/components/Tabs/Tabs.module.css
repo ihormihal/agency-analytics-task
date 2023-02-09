@@ -1,0 +1,19 @@
+.tabs {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid var(--color-grey-line);
+}
+.tab {
+    color: var(--color-gray-text);
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    padding: 1.25rem 0;
+    font-weight: 500;
+    font-size: 1.25rem;
+    position: relative;
+    top: 1px;
+}
+.active {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+}

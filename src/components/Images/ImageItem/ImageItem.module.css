@@ -1,0 +1,11 @@
+.wrapper figure figcaption {
+    margin-top: 5px;
+}
+.filename {
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.size {
+    color: var(--color-gray-text);
+}
